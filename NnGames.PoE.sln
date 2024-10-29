@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NnGames.PoE2.OpenDb", "NnGames.PoE2.OpenDb\NnGames.PoE2.OpenDb.csproj", "{C0596CC0-C81A-4881-BD40-6F3D2B369DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NnGames.PoE.Test", "NnGames.PoE.Test\NnGames.PoE.Test.csproj", "{345CC0A8-7315-4329-B8DB-C69BA9B9F6E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0596CC0-C81A-4881-BD40-6F3D2B369DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0596CC0-C81A-4881-BD40-6F3D2B369DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0596CC0-C81A-4881-BD40-6F3D2B369DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0596CC0-C81A-4881-BD40-6F3D2B369DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{345CC0A8-7315-4329-B8DB-C69BA9B9F6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{345CC0A8-7315-4329-B8DB-C69BA9B9F6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{345CC0A8-7315-4329-B8DB-C69BA9B9F6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{345CC0A8-7315-4329-B8DB-C69BA9B9F6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A94A7C41-38C5-402B-A384-74B3DE47A70C}
+	EndGlobalSection
+EndGlobal
