@@ -9,7 +9,7 @@ namespace NnGames.PoE.Test
     {
         static void Main(string[] args)
         {
-            var l = CurrencyDataScraping();
+            var l = SkillGemDataScraping();
             var a = JsonSerializer.Serialize(l);
             //var l = new List<Currency>();
 
@@ -53,6 +53,32 @@ namespace NnGames.PoE.Test
 
             return l;
         }
+
+        static List<Gem> SkillGemDataScraping()
+        {
+            var web = new HtmlWeb();
+            var document = web.Load("https://poe2db.tw/us/Skill_Gems");
+            var htmlElements = document.DocumentNode.QuerySelectorAll("div.itemBoxContent");
+
+            var l = new List<Gem>();
+            foreach (var productHTMLElement in htmlElements)
+            {
+                var name = HtmlEntity.DeEntitize(productHTMLElement.QuerySelector("div.itemName span.lc").InnerText?.Trim());
+                var type = HtmlEntity.DeEntitize(productHTMLElement.QuerySelector("div.typeLine span.lc").InnerText?.Trim());
+
+
+                //var type = HtmlEntity.DeEntitize(productHTMLElement.QuerySelector("span.colourDefault").InnerText?.Trim().Replace("1/", string.Empty));
+                //var description = HtmlEntity.DeEntitize((productHTMLElement.QuerySelector("div.explicitMod")?.InnerText ?? productHTMLElement.QuerySelector("div.implicitMod")?.InnerText)?.Trim());
+                //var note = HtmlEntity.DeEntitize(productHTMLElement.QuerySelector("div.fst-italic")?.InnerText?.Trim());
+
+                //l.Add(new Gem(name, short.Parse(stackSize), description, note));
+            }
+
+            return l;
+        }
+
+
+
     }
 }
 

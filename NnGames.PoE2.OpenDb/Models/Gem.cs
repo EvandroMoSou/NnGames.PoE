@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NnGames.PoE2.OpenDb.Enums;
 
 namespace NnGames.PoE2.OpenDb.Models
 {
     public class Gem
     {
         public string Name { get; set; } = string.Empty;
-
+        public GemType GemType { get; set; } 
     }
 }
