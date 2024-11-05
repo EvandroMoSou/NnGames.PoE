@@ -76,7 +76,7 @@ _Chutzpah*
 ipch/
 *.aps
 *.ncb
-*.opendb
+#*.opendb
 *.opensdf
 *.sdf
 *.cachefile
@@ -253,18 +253,6 @@ paket-files/
 
 # ABP Studio
 **/.abpstudio/
-
-# SH0895_SIGA
-src/SH0895_SIGA.Web/Logs/*
-src/SH0895_SIGA.Web.Host/Logs/*
-src/SH0895_SIGA.Web.Public/Logs/*
-src/SH0895_SIGA.Web.Public.Host/Logs/*
-src/SH0895_SIGA.AuthServer/Logs/*
-src/SH0895_SIGA.HttpApi.Host/Logs/*
-src/SH0895_SIGA.HttpApi.HostWithIds/Logs/*
-src/SH0895_SIGA.DbMigrator/Logs/*
-src/SH0895_SIGA.Blazor.Server/Logs/*
-src/SH0895_SIGA.Blazor.Server.Tiered/Logs/*
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
