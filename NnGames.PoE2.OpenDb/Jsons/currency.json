@@ -1,0 +1,110 @@
+[
+  {
+    "Name": "Armourer\u0027s Scrap",
+    "StackSize": 40,
+    "Description": "Improves the quality of an armour",
+    "Note": null
+  },
+  {
+    "Name": "Chaos Orb",
+    "StackSize": 20,
+    "Description": "Removes a random modifier and augments a rare item with a new random modifier",
+    "Note": "Right click this item then left click a rare item to applt it."
+  },
+  {
+    "Name": "Divine Orb",
+    "StackSize": 20,
+    "Description": "Randomizes the numerical values of an item.",
+    "Note": "Right click this item then left click a item to applt it."
+  },
+  {
+    "Name": "Exalted Orb",
+    "StackSize": 20,
+    "Description": "Adds 1 random Affix to a Rare item.",
+    "Note": "Right click this item then left click a rare item to applt it."
+  },
+  {
+    "Name": "Greater Jeweller\u0027s Orb",
+    "StackSize": 20,
+    "Description": "Adds a socket to a skill gem with 4 sockets",
+    "Note": null
+  },
+  {
+    "Name": "Jeweller\u0027s Orb",
+    "StackSize": 20,
+    "Description": "Adds a socket to a skill gem with 3 sockets",
+    "Note": null
+  },
+  {
+    "Name": "Lesser Jeweller\u0027s Orb",
+    "StackSize": 20,
+    "Description": "Adds a socket to a skill gem with 2 sockets",
+    "Note": null
+  },
+  {
+    "Name": "Orb of Alchemy",
+    "StackSize": 20,
+    "Description": "Upgrades a normal item to a rare item with 4 modifiers",
+    "Note": "Right click this item then left click a normal item to applt it."
+  },
+  {
+    "Name": "Orb of Annulment",
+    "StackSize": 20,
+    "Description": "Removes 1 random modifier from a Magic or Rare item.",
+    "Note": "Right click this item then left click a magic or rare item to applt it."
+  },
+  {
+    "Name": "Orb of Augmentation",
+    "StackSize": 30,
+    "Description": "Augments a magic item with a new random modifier",
+    "Note": "Right click this item then left click a magic item to applt it. Magic items can have up to two random modifiers."
+  },
+  {
+    "Name": "Orb of Chance",
+    "StackSize": 20,
+    "Description": "Randomly transforms a normal item into a Magic, Rare, or Unique item.",
+    "Note": "Right click this item then left click a normal item to applt it."
+  },
+  {
+    "Name": "Orb of Transmutation",
+    "StackSize": 40,
+    "Description": "Upgrades a normal item to a magic item with 1 modifier",
+    "Note": "Right click this item then left click a normal item to applt it."
+  },
+  {
+    "Name": "Regal Orb",
+    "StackSize": 10,
+    "Description": "Upgrades a magic item to a rare item",
+    "Note": null
+  },
+  {
+    "Name": "Scroll of Wisdom",
+    "StackSize": 40,
+    "Description": "Identifies an item",
+    "Note": null
+  },
+  {
+    "Name": "Uncut Buff Skill Gem",
+    "StackSize": 1,
+    "Description": "Creates a Persistent Buff Skill Gem",
+    "Note": "Uncut Buff Skill Gems must be engraved to become usable."
+  },
+  {
+    "Name": "Uncut Skill Gem",
+    "StackSize": 5,
+    "Description": "Creates a Skill Gem or Level an existing gem to level 5",
+    "Note": "Uncut Skill Gems must be engraved to become usable."
+  },
+  {
+    "Name": "Uncut Support Gem",
+    "StackSize": 1,
+    "Description": "Creates a Support Gem",
+    "Note": "Right Click to create a Support Gem."
+  },
+  {
+    "Name": "Vaal Orb",
+    "StackSize": 20,
+    "Description": "Unpredictably changes the item and may prevent the item from being crafted further.",
+    "Note": "Right click this item then left click a rare item to applt it."
+  }
+]
